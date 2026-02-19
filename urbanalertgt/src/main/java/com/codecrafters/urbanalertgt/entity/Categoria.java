@@ -2,6 +2,7 @@ package com.codecrafters.urbanalertgt.entity;
 
 import jakarta.persistence.Column;
 import jakarta.persistence.Entity;
+import jakarta.persistence.Id;
 import jakarta.persistence.Table;
 
 
@@ -10,6 +11,7 @@ import jakarta.persistence.Table;
 
 public class Categoria {
 
+    @Id
     @Column(name = "id_categoria")
     private int IDCategoria;
     @Column
